@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="a" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#0B7A74"/>
+      <stop offset="100%" stop-color="#1BA8A0"/>
+    </linearGradient>
+    <linearGradient id="b" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15968E"/>
+      <stop offset="100%" stop-color="#30CCC2"/>
+    </linearGradient>
+    <linearGradient id="c" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#3ED6CE"/>
+      <stop offset="100%" stop-color="#7EEAE4"/>
+    </linearGradient>
+    <linearGradient id="d" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1CA69E"/>
+      <stop offset="100%" stop-color="#50D8D0"/>
+    </linearGradient>
+  </defs>
+  <!-- Top-left petal (darkest) -->
+  <path d="M92 18 C92 18 68 28 58 58 C48 88 72 108 100 100 C100 100 106 72 104 52 C102 32 92 18 92 18Z" fill="url(#a)"/>
+  <!-- Top-right petal -->
+  <path d="M182 92 C182 92 172 68 142 58 C112 48 92 72 100 100 C100 100 128 106 148 104 C168 102 182 92 182 92Z" fill="url(#b)"/>
+  <!-- Bottom-right petal (lightest) -->
+  <path d="M108 182 C108 182 132 172 142 142 C152 112 128 92 100 100 C100 100 94 128 96 148 C98 168 108 182 108 182Z" fill="url(#c)"/>
+  <!-- Bottom-left petal -->
+  <path d="M18 108 C18 108 28 132 58 142 C88 152 108 128 100 100 C100 100 72 94 52 96 C32 98 18 108 18 108Z" fill="url(#d)"/>
+</svg>
